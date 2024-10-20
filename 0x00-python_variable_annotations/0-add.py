@@ -6,12 +6,13 @@ Annotation Function for 'add'
 
 def add(a: float, b: float) -> float:
     """
-    Adds two floats
+    Adds two floats.
 
     Args:
         a (float): first float
         b (float): second float
-    return:
-        float: sum of args
+
+    Returns:
+        float: sum of the arguments
     """
     return a + b
